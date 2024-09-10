@@ -1,8 +1,6 @@
-Here's the cleaned-up version of the markdown file with improved grammar, fixed typos, and better formatting:
-
 # NEAR DAO Ecosystem
 
-This repo is for understanding the DAO (Decentralized Autonomous Organization) Ecosystem on NEAR Protocol.
+This repo is for understanding the DAO (Decentralized Autonomous Organization) Ecosystem on [NEAR Protocol](https://near.org).
 
 For a [history of DAOs on NEAR](https://nearbuilders.com/dao-map)
 
@@ -13,14 +11,11 @@ For a [history of DAOs on NEAR](https://nearbuilders.com/dao-map)
 ### Frontends
 
 - AstraPlus Components built by [NDC](https://neardc.org) last year. Uses [Pikespeak API](https://docs.pikespeak.ai) (needed because it's hard to index proposals, comments, and all DAOs). Available on [near.social](https://near.social/astraplusplus.ndctools.near/widget/home?tab=funds&daoId=build.sputnik-dao.near&page=dao) and [dev.near.org](https://dev.near.org/astraplusplus.ndctools.near/widget/home?tab=funds&daoId=build.sputnik-dao.near&page=dao) gateway (each gateway needs to be CORS whitelisted by the team at Pikespeak). Has global DAO, DAO Feed, flow of funds, vote on multiple proposals at once. [GitHub Repo](https://github.com/near-ndc/AstraPlusPlus). Easily switch props on DAO address in URL: `/astraplusplus.ndctools.near/widget/home?tab=funds&daoId={YOURDAONAME}.sputnik-dao.near&page=dao`
-
 - Other BOS-based components that use NEAR Social built-in NEAR API JS. I like this as I can access through different gateways, and it's easiest to fork and customize.
-
 - [DAOs on BOS - No Middleware](https://near.social/builddao.near/widget/page.proposals.Index?daoId=impact.sputnik-dao.near) For Full Sputnik Frontend Functionality mixed with Social Profile (Proposal Creation, Adding/Removing Members) by [Build DAO](https://nearbuilders.org) - `/builddao.near/widget/page.proposals.Index?daoId={YOURDAO}.sputnik-dao.near` (works on any gateway)
-
-- Evgeny of FastNEAR/NEAR Social made this BOS-based DAO Voting only component: https://near.social/mob.near/widget/DAO.Main
-
+- BOS-based DAO Voting only component by Evgeny of FastNEAR/NEAR Social  : https://near.social/mob.near/widget/DAO.Main
 - Other BOS apps like [Mintbos](https://mintbos.vercel.app/) + [Potlock](https://bos.potlock.org/) have "act as DAO" functionality that enables you to use any button as a function call proposal (mint, list, buy NFT, deploy storefront) + (create Potlock / NEAR social profile, donate as DAO). Also adding to Potlock NextJS app ([Code Snippet](https://github.com/PotLock/potlock-nextjs-app/blob/main/src/app/_components/ActAsDao.tsx)). Tutorials coming soon.
+- Multicall App https://www.multicall.app/#/app
 
 ### Tooling
 
@@ -29,8 +24,7 @@ For a [history of DAOs on NEAR](https://nearbuilders.com/dao-map)
 - DAO Notifications on Telegram with [LNC Watch Bot](https://t.me/lncwatchbot) (by [Learn NEAR Club](https://learnnear.club) team) to not only keep track of DAO Addresses but also all our contracts on staging + prod and wallets for Telegram notification. Here is the [tutorial](https://youtu.be/TCEcZSaCHeo?si=rgK1ylwGJ6J-jtup)
 
 ### Figma
-
-(No content provided for this section)
+- astra++ designs https://www.figma.com/file/oA41se1TnBuFe2AC71jguw/Astra%2B%2B-%7C-NEAR?type=design&node-id=3-3&mode=design&t=prDSAHP59ZBgp6MU-0
 
 ## Contracts
 
@@ -50,14 +44,13 @@ For a [history of DAOs on NEAR](https://nearbuilders.com/dao-map)
 
 ### House of Stake
 
-- House of Stake is being built by some NEAR OGs and should be ready in a few months for contracts with audit
-- House of Stake Governance Proposal by Gauntlet: https://gov.near.org/t/near-governance-house-of-stake-proposal-by-gauntlet/39768
+- House of Stake is being built by some NEAR OGs and should be ready in a few months for contracts with audit [Governance Proposal](https://gov.near.org/t/near-governance-house-of-stake-proposal-by-gauntlet/39768) by Gauntlet
 
 ## Deprecated
 
 ### Frontend
 
-- AstroDAO.com
+- AstroDAO.com  Front End Repo https://github.com/near-daos/astro-ui
 - Sputnik-fund - also a frontend maintained by LNC Club
 
 ### Contracts
@@ -72,3 +65,6 @@ For a [history of DAOs on NEAR](https://nearbuilders.com/dao-map)
 - Start of Daocubator (2022): https://x.com/DAOcubator/status/1501451457413152770
 - Formation of DAO Builder Calls (late 2022)
 - AstroDAO Transition RFPs: https://near.social/devhub.near/widget/app?page=post&id=2375
+
+Other Resources
+- https://github.com/near-daos
